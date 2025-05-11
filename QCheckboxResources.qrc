@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>led_off.png</file>
+        <file>led_on.png</file>
+        <file>button_off.png</file>
+        <file>button_on.png</file>
+        <file>button.png</file>
+        <file>buttonoff.png</file>
+        <file>buttonon.png</file>
+    </qresource>
+</RCC>
