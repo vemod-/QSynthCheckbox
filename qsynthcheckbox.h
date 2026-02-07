@@ -27,12 +27,15 @@ signals:
     void valueChanged(int value);
     //void toggled(bool value);
 private:
-    QImage checkedImage;
-    QImage uncheckedImage;
-    QImage buttonImage;
+    QPixmap checkedImage;
+    QPixmap uncheckedImage;
+    QPixmap buttonImage;
+    QPixmap ledonImage;
+    QPixmap ledoffImage;
     QStringList m_StateList;
     int m_Value=0;
     double m_Zoom=1;
+    void setImages();
 private slots:
     void doClick();
 };
